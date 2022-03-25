@@ -62,7 +62,10 @@ public class Medallion implements Comparable<Medallion>{
 		this.copperMedals = copperMedals;
 	}
 	
-	
+	public String toString() {
+		String message = "Country: " + getCountryName() +", Gold medals: "+getGoldMedals()+", Silver medals: "+getSilverMedals()+", Copper medals: "+getCopperMedals()+".";
+		return message;
+	}
 
 	
 	
