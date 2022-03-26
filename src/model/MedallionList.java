@@ -17,7 +17,7 @@ public class MedallionList {
 	}
 	
 	public void loadMedallionsMale(){
-		File file = new File("..\\files\\Participants.txt");
+		File file = new File(".\\files\\Participants.txt");
 		try {
 			FileReader fr = new FileReader(file);
 			BufferedReader br = new BufferedReader(fr);
@@ -40,7 +40,7 @@ public class MedallionList {
 	}
 	
 	public void loadMedallionsFemale(){
-		File file = new File("..\\files\\Participants.txt");
+		File file = new File(".\\files\\Participants.txt");
 		try {
 			FileReader fr = new FileReader(file);
 			BufferedReader br = new BufferedReader(fr);
@@ -63,7 +63,7 @@ public class MedallionList {
 	}
 	
 	public void loadTotalMedallions() {
-		File file = new File("..\\files\\Participants.txt");
+		File file = new File(".\\files\\Participants.txt");
 		try {
 			FileReader fr = new FileReader(file);
 			BufferedReader br = new BufferedReader(fr);
@@ -99,5 +99,21 @@ public class MedallionList {
 	
 	public void sortComparatorClass() {
 		Collections.sort(medallions, new MedallionComparator());
+	}
+	
+	public void medallionsBubbleSort() {
+		int n = medallions.size();
+		boolean inversion = true;
+		for (int i = 0; i < n && inversion; i++) {
+			inversion = false;
+	    	for (int j = 1; j < n -i; j++) {
+	    		if (medallions.get(j).compareTo(medallions.get(j-1)) > 0) {
+	    			Medallion temp = medallions.get(j);
+	    			medallions.set(j, medallions.get(j-1));
+	    			medallions.set(j-1, temp);
+	    			inversion = true;
+	    		}
+	    	}
+	    }
 	}
 }

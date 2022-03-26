@@ -1,0 +1,26 @@
+25
+USA;5;4;3;2;1;4
+Rusia;10;2;32;11;2;9
+China;12;4;5;6;7;8
+Irlanda;5;3;6;7;21;2
+Colombia;34;55;66;72;11;23
+Alemania;1;2;3;4;5;6
+Belgica;5;4;3;2;1;4
+Japon;10;2;32;11;2;9
+Tailandia;12;4;5;6;7;8
+Pakistan;5;3;6;7;21;2
+Brasil;5;4;3;2;1;4
+Mexico;10;2;32;11;2;9
+Argentina;12;4;5;6;7;8
+España;5;3;6;7;21;2
+Lituania;1;2;3;4;5;6
+Polonia;5;4;3;2;1;4
+Ucrania;10;2;32;11;2;9
+Imperio austrohungaro;12;4;5;6;7;8
+Escocia;5;3;6;7;21;2
+Bolivia;34;55;66;72;11;23
+Paraguay;1;2;3;4;5;6
+Uruguay;5;4;3;2;1;4
+Canada;10;2;32;11;2;9
+Cuba;12;4;5;6;7;8
+Nueva zelanda;5;3;6;7;21;2
